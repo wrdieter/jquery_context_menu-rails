@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Bill Dieter"]
   s.email       = ["dieter@acm.org"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/wrdieter/jquery_context_menu-rails"
   s.summary     = "Use jQuery-contextMenu with Rails 3"
   s.description = "This gem provides jQuery-contextMenufor your Rails 3.1 application.  (jQuery-contextMenu source code is at https://github.com/medialize/jQuery-contextMenu.git)"
 
