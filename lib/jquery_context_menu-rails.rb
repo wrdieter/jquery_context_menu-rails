@@ -1,1 +1,1 @@
-requre 'jquery_context_menu/rails'
+require 'jquery_context_menu/rails'

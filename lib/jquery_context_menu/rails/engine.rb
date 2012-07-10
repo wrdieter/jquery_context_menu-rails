@@ -1,4 +1,4 @@
-Module JQueryContextMenu
+module JQueryContextMenu
   module Rails
     class Engine < ::Rails::Engine
     end
