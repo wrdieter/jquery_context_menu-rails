@@ -14,7 +14,7 @@ Next add the following line to app/assets/javascripts/application.js:
 
 And, in app/assets/stylesheets/application.css.scss add:
 
-    //= require jquery.contextMenu.js
+    //= require jquery.contextMenu.css
 
 These additions will make the jQuery-contextMenu plug-in available on all pages.  If you want to limit it to a subset of pages, require the .js and .css files in the appropriate Rails Javascript and CSS files.
 
