@@ -1,6 +1,6 @@
 # Ruby Gem for jQuery contextMenu Plug-In #
 
-This gem wraps the jQuery context menu plug-in (https://github.com/medialize/jQuery-contextMenu) for convenient use in Rails 3.  
+This gem wraps the jQuery context menu plug-in (https://github.com/medialize/jQuery-contextMenu) for convenient use in Rails 3.  jQuery-contextMenu is a jQuery plug-in that pops up a menu when the user right clicks on an element to which the menu is assigned.
 
 ## Usage ##
 
