@@ -104,7 +104,7 @@ var // currently active contextMenu trigger
                 offset = opt.$menu.position();
             } else {
                 // x and y are given (by mouse event)
-                var triggerIsFixed = opt.$trigger.parents().andSelf()
+                var triggerIsFixed = opt.$trigger.parents().addBack()
                     .filter(function() {
                         return $(this).css('position') == "fixed";
                     }).length;
@@ -1090,7 +1090,7 @@ var // currently active contextMenu trigger
                 // determine widths of submenus, as CSS won't grow them automatically
                 // position:absolute > position:absolute; min-width:100; max-width:200; results in width: 100;
                 // kinda sucks hard...
-                opt.$menu.find('ul').andSelf().css({position: 'static', display: 'block'}).each(function(){
+                opt.$menu.find('ul').addBack().css({position: 'static', display: 'block'}).each(function(){
                     var $this = $(this);
                     $this.width($this.css('position', 'absolute').width())
                         .css('position', 'static');
